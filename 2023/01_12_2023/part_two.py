@@ -1,6 +1,6 @@
 """Author: Nikita Kulikov (c) 01.12.2023
 
-Advent Of Code first day. 1/2 puzzle.
+Advent Of Code first day. 2/2 puzzle.
 """
 import functools
 import re
