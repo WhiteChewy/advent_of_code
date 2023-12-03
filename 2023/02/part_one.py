@@ -38,7 +38,7 @@ def is_game_possible(line: str) -> list:
     else:
         return None
  
-def get_games(filename: str='2023/02_12_2023/input.txt') -> list:
+def get_games(filename: str='2023/02/input.txt') -> list:
     """Get games from file"""
     with open(filename, 'r') as file:
         lines = file.readlines()

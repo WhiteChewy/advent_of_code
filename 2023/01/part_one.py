@@ -16,7 +16,7 @@ def filter_calibration_number(line: str) -> int:
     return int(first_number(chars) + first_number(chars[::-1]))
 
 
-def get_calibration_nubers_sum(filename: str='01_12_2023/input.txt'):
+def get_calibration_nubers_sum(filename: str='01/input.txt'):
     with open(filename, 'r') as file:
         lines = file.readlines()
     calibration_numbers = map(filter_calibration_number, lines)

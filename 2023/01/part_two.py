@@ -23,7 +23,7 @@ def find_first_subline_digits(line: str) -> Iterator:
     return int(first_num + last_num)
 
 
-def get_calibration_nubers_sum(filename: str='2023/01_12_2023/input.txt'):
+def get_calibration_nubers_sum(filename: str='2023/01/input.txt'):
     with open(filename, 'r') as file:
         lines = file.readlines()
     calibration_numbers = map(find_first_subline_digits, lines)
