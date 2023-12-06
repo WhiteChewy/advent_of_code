@@ -43,9 +43,7 @@ def seed_to_soil(seeds: list, seed_to_soil: list) -> int:
     for seed in seeds:
         target = seed
         for ranges in seed_to_soil:
-            soil_start = ranges[0]
-            seed_start =ranges[1]
-            range_length = ranges[2]
+            soil_start, seed_start, range_length = ranges
             if seed_start <= seed < seed_start+range_length:
                 target = (soil_start-seed_start)-(-seed)
         result.append(target)
