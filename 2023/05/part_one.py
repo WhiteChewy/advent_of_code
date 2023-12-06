@@ -3,7 +3,6 @@
 Advent Of Code second day. 1/2 puzzle.
 """
 import re
-import datetime
 from functools import reduce
 
 
